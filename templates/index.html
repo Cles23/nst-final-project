@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NST Prototype</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+    <h1>NST Prototype</h1>
+    <form action="/stylise" method="post" enctype="multipart/form-data">
+        <label>Upload content image</label>
+        <input type="file" name="content" required>
+
+        <label>Upload style image</label>
+        <input type="file" name="style" required>
+
+        <!-- Progress bar -->
+        <button type="submit">Stylise</button>
+
+        <!-- Spinner -->
+        <div class="chrome-spinner" id="spinner" style="display: none;"></div>
+    </form>
+
+    {% if output_image %}
+        <img src="{{ url_for('static', filename='output/' + output_image) }}">
+    {% endif %}
+    </div>
+    <script>
+        const form = document.querySelector('form');
+        const spinner = document.getElementById('spinner');
+
+        form.addEventListener('submit', () => {
+            spinner.style.display = 'block';
+        });
+    </script>
+    <script>
+        window.onload = () => {
+            document.getElementById('spinner').style.display = 'none';
+        };
+    </script>
+</body>
+
+</html>
