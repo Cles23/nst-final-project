@@ -1,6 +1,6 @@
 # Neural Style Transfer App
 
-Simple web app for applying artistic styles to photos. This is my final year project - sorry if my English is not perfect, Spanish is my first language.
+Simple web app for applying artistic styles to photos. This is my final year project
 
 ## What it does
 - Upload your photo + an art image (style)
