@@ -1,0 +1,299 @@
+/* ---- components.css ----------------------------------------------------- */
+/* Minimalist components with Coinbase-style separators                     */
+
+/* Tabs */
+.tab {
+  padding: var(--s-2) var(--s-3);
+  border-radius: var(--r-sm);
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.tab:hover {
+  color: var(--text);
+  background: var(--panel);
+}
+
+.tab.is-active {
+  background: var(--accent);
+  color: var(--panel);
+}
+
+.tab[aria-disabled="true"] {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Subtabs with minimal separators */
+.subtabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: var(--s-6);
+  background: var(--panel-2);
+  border-radius: var(--r-md);
+  padding: var(--s-1);
+  position: relative;
+}
+
+.subtab {
+  padding: var(--s-2) var(--s-3);
+  border-radius: var(--r-xs);
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.subtab:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background: var(--border);
+  opacity: 0.5;
+}
+
+.subtab.is-active {
+  background: var(--panel);
+  color: var(--text);
+  box-shadow: var(--shadow-sm);
+}
+
+.subtab.is-active::after {
+  display: none;
+}
+
+/* Controls with subtle separators */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  padding: var(--s-4) 0;
+  position: relative;
+}
+
+.control:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--border);
+  opacity: 0.3;
+}
+
+.control label {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Sliders */
+.slider {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+}
+
+input[type="range"] {
+  flex: 1;
+  appearance: none;
+  height: 2px;
+  background: var(--border);
+  border-radius: 1px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  border: 2px solid var(--panel);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-md);
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+output {
+  width: 32px;
+  text-align: right;
+  color: var(--text-secondary);
+  font-size: var(--fs-xs);
+  font-family: var(--font-mono);
+  font-weight: var(--fw-medium);
+}
+
+/* Buttons - no borders */
+button,
+.button {
+  padding: var(--s-2) var(--s-4);
+  border-radius: var(--r-sm);
+  border: none;
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-2);
+}
+
+button:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Primary Button */
+#upload-btn,
+#download-btn {
+  background: var(--accent);
+  color: var(--panel);
+  font-weight: var(--fw-semibold);
+}
+
+#upload-btn:hover,
+#download-btn:hover {
+  background: var(--accent-secondary);
+}
+
+/* Danger Button */
+.danger-btn {
+  background: var(--danger) !important;
+  color: white !important;
+}
+
+.danger-btn:hover {
+  background: #dc2626 !important;
+}
+
+/* Form Elements - no borders */
+select {
+  width: 100%;
+  padding: var(--s-2) var(--s-3);
+  border: none;
+  border-radius: var(--r-sm);
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: var(--fs-sm);
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  background: var(--border);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Floating Toggle - minimal */
+.floating-toggle {
+  position: absolute;
+  top: var(--s-4);
+  right: var(--s-4);
+  z-index: 10;
+  padding: var(--s-2) var(--s-3);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: none;
+  border-radius: var(--r-sm);
+  color: var(--text);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.floating-toggle:hover {
+  background: var(--accent);
+  color: var(--panel);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (prefers-color-scheme: dark) {
+  .floating-toggle {
+    background: rgba(17, 17, 17, 0.95);
+  }
+}
+
+/* Utilities */
+.hint {
+  color: var(--text-muted);
+  font-size: var(--fs-xs);
+  line-height: var(--lh-tight);
+}
+
+.control-row {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-2);
+}
+
+/* Subtab panels */
+.subtab-panel {
+  display: none;
+}
+
+.subtab-panel.is-active {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Hide elements without images */
+.stage:not(.has-image) .floating-toggle {
+  display: none !important;
+}
+

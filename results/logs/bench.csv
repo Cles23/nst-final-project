@@ -1,0 +1,201 @@
+timestamp,algo,device,max_side,content,style,params,time_ms,ssim_content,ssim_style
+2025-09-21T17:02:00.291136,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\DP130155.jpg,steps=400,25504.54,,
+2025-09-21T17:02:11.600818,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11182.01,,
+2025-09-21T17:02:37.255201,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,25135.90,,
+2025-09-21T17:02:48.622822,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11248.17,,
+2025-09-21T17:03:14.379972,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\abstract-style-1.jpg,steps=400,25261.54,,
+2025-09-21T17:03:25.784187,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11312.52,,
+2025-09-21T17:03:51.595289,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\starry_night.png,steps=400,25294.12,,
+2025-09-21T17:04:03.082495,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11308.03,,
+2025-09-21T17:04:28.874666,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\the_scream.jpg,steps=400,25264.27,,
+2025-09-21T17:04:40.233021,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11281.08,,
+2025-09-21T17:05:06.162983,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\DP130155.jpg,steps=400,25313.69,,
+2025-09-21T17:05:17.522076,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11279.05,,
+2025-09-21T17:05:43.377278,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,25320.05,,
+2025-09-21T17:05:54.827787,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11300.31,,
+2025-09-21T17:06:20.780409,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\abstract-style-1.jpg,steps=400,25327.79,,
+2025-09-21T17:06:32.131326,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11295.96,,
+2025-09-21T17:06:57.965903,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\starry_night.png,steps=400,25345.05,,
+2025-09-21T17:07:09.327369,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11308.62,,
+2025-09-21T17:07:35.143001,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\the_scream.jpg,steps=400,25283.33,,
+2025-09-21T17:07:46.586799,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11391.01,,
+2025-09-21T17:08:08.616216,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\DP130155.jpg,steps=400,21464.36,,
+2025-09-21T17:08:17.821271,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9161.47,,
+2025-09-21T17:08:39.516868,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,21439.88,,
+2025-09-21T17:08:49.031437,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9182.96,,
+2025-09-21T17:09:10.793971,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\abstract-style-1.jpg,steps=400,21461.46,,
+2025-09-21T17:09:19.970051,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9135.46,,
+2025-09-21T17:09:42.036572,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\starry_night.png,steps=400,21457.11,,
+2025-09-21T17:09:51.258601,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9183.51,,
+2025-09-21T17:10:12.960218,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\the_scream.jpg,steps=400,21442.69,,
+2025-09-21T17:10:22.179219,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9177.64,,
+2025-09-21T17:10:46.971884,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\DP130155.jpg,steps=400,24086.46,,
+2025-09-21T17:10:57.717250,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10700.04,,
+2025-09-21T17:11:22.363240,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,24062.81,,
+2025-09-21T17:11:33.110757,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10701.46,,
+2025-09-21T17:11:57.868111,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\abstract-style-1.jpg,steps=400,24124.45,,
+2025-09-21T17:12:08.655265,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10725.62,,
+2025-09-21T17:12:33.369119,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\starry_night.png,steps=400,24089.84,,
+2025-09-21T17:12:44.138397,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10723.45,,
+2025-09-21T17:13:09.249552,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\the_scream.jpg,steps=400,24151.46,,
+2025-09-21T17:13:20.031772,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10656.45,,
+2025-09-21T17:13:53.778486,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\DP130155.jpg,steps=400,32821.07,,
+2025-09-21T17:14:08.850409,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14958.43,,
+2025-09-21T17:14:42.124528,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,32764.78,,
+2025-09-21T17:14:57.216066,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14963.84,,
+2025-09-21T17:15:30.552830,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\abstract-style-1.jpg,steps=400,32797.74,,
+2025-09-21T17:15:45.660537,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14972.67,,
+2025-09-21T17:16:18.963903,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\starry_night.png,steps=400,32799.13,,
+2025-09-21T17:16:34.076226,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14966.37,,
+2025-09-21T17:17:07.343864,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\the_scream.jpg,steps=400,32784.40,,
+2025-09-21T17:17:22.364231,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14953.87,,
+2025-09-21T17:36:43.826330,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\DP130155.jpg,steps=400,25881.94,0.4220,0.1105
+2025-09-21T17:36:55.208280,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11243.46,0.3135,0.0510
+2025-09-21T17:37:21.466033,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,25400.99,0.4802,0.1266
+2025-09-21T17:37:32.871453,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11287.95,0.3044,0.0641
+2025-09-21T17:37:58.740003,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\abstract-style-1.jpg,steps=400,25270.43,0.4017,0.0676
+2025-09-21T17:38:10.655739,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11699.53,0.3136,0.0484
+2025-09-21T17:38:37.733837,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\starry_night.png,steps=400,26399.25,0.3147,0.0325
+2025-09-21T17:38:49.317170,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11440.69,0.3008,0.0332
+2025-09-21T17:39:15.276316,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\the_scream.jpg,steps=400,25315.43,0.5347,0.1756
+2025-09-21T17:39:26.645365,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11231.98,0.3203,0.0783
+2025-09-21T17:39:52.713920,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\DP130155.jpg,steps=400,25335.16,0.4733,0.1374
+2025-09-21T17:40:04.065600,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11230.17,0.3610,0.0534
+2025-09-21T17:40:29.990632,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,25336.04,0.4633,0.1313
+2025-09-21T17:40:41.406684,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11241.05,0.3625,0.0593
+2025-09-21T17:41:07.463404,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\abstract-style-1.jpg,steps=400,25452.43,0.4202,0.0728
+2025-09-21T17:41:18.884296,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11237.88,0.3572,0.0451
+2025-09-21T17:41:44.772774,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\starry_night.png,steps=400,25323.37,0.3504,0.0310
+2025-09-21T17:41:56.190179,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11235.09,0.3393,0.0240
+2025-09-21T17:42:22.129389,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\the_scream.jpg,steps=400,25374.18,0.4802,0.1856
+2025-09-21T17:42:33.567356,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11229.71,0.3735,0.0750
+2025-09-21T17:42:55.478966,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\DP130155.jpg,steps=400,21413.80,0.4657,0.0832
+2025-09-21T17:43:05.235682,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9099.99,0.3399,0.0451
+2025-09-21T17:43:27.018689,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,21474.33,0.5414,0.1345
+2025-09-21T17:43:36.231885,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9111.33,0.3345,0.0683
+2025-09-21T17:43:58.353025,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\abstract-style-1.jpg,steps=400,21453.90,0.4512,0.0721
+2025-09-21T17:44:07.508222,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9056.55,0.3335,0.0498
+2025-09-21T17:44:29.347691,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\starry_night.png,steps=400,21448.81,0.3516,0.0297
+2025-09-21T17:44:38.551305,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9101.07,0.3352,0.0262
+2025-09-21T17:45:00.651306,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\the_scream.jpg,steps=400,21750.39,0.5981,0.1622
+2025-09-21T17:45:10.010020,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",9242.20,0.3610,0.0737
+2025-09-21T17:45:35.414383,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\DP130155.jpg,steps=400,24468.11,0.5585,0.0593
+2025-09-21T17:45:46.222873,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10695.46,0.4532,0.0330
+2025-09-21T17:46:12.715311,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,25535.08,0.5471,0.1042
+2025-09-21T17:46:24.159577,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",11301.36,0.4219,0.0585
+2025-09-21T17:46:51.421608,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\abstract-style-1.jpg,steps=400,26522.79,0.5380,0.0587
+2025-09-21T17:47:02.512447,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10919.03,0.4580,0.0436
+2025-09-21T17:47:28.089457,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\starry_night.png,steps=400,24932.65,0.4367,0.0317
+2025-09-21T17:47:39.086257,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10864.44,0.4717,0.0289
+2025-09-21T17:48:05.336711,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\the_scream.jpg,steps=400,25242.14,0.5667,0.1423
+2025-09-21T17:48:16.407935,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",10841.90,0.4349,0.0593
+2025-09-21T17:48:51.530427,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\DP130155.jpg,steps=400,34497.97,0.6000,0.1967
+2025-09-21T17:49:06.629383,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\DP130155.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14915.25,0.5302,0.0917
+2025-09-21T17:49:39.988215,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,32800.59,0.5422,0.1005
+2025-09-21T17:49:55.821501,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14888.38,0.5045,0.0529
+2025-09-21T17:50:29.250228,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\abstract-style-1.jpg,steps=400,32855.42,0.5679,0.0693
+2025-09-21T17:50:44.297945,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\abstract-style-1.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14883.20,0.5270,0.0454
+2025-09-21T17:51:17.642301,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\starry_night.png,steps=400,32758.70,0.5031,0.0354
+2025-09-21T17:51:33.688991,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\starry_night.png,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14868.45,0.5178,0.0286
+2025-09-21T17:52:07.095853,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\the_scream.jpg,steps=400,32801.03,0.5387,0.1616
+2025-09-21T17:52:22.143714,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\the_scream.jpg,"alpha=0.8,steps=300,opt=adam,tv=1e-06",14875.47,0.5290,0.0702
+2025-09-21T18:11:02.769701,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\DP130155.jpg,steps=400,25780.45,0.4220,0.1105
+2025-09-21T18:11:14.443562,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\DP130155.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11155.59,0.1938,0.0256
+2025-09-21T18:11:40.791973,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,25750.78,0.4801,0.1272
+2025-09-21T18:11:52.558326,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11589.86,0.1955,0.0413
+2025-09-21T18:12:19.788063,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\abstract-style-1.jpg,steps=400,26662.26,0.4018,0.0678
+2025-09-21T18:12:31.781935,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\abstract-style-1.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11775.57,0.2067,0.0334
+2025-09-21T18:12:58.413217,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\starry_night.png,steps=400,26012.78,0.3145,0.0328
+2025-09-21T18:13:10.214602,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\starry_night.png,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11652.59,0.1898,0.0185
+2025-09-21T18:13:36.932610,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\the_scream.jpg,steps=400,26159.14,0.5344,0.1755
+2025-09-21T18:13:48.595481,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\the_scream.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11519.33,0.2084,0.0486
+2025-09-21T18:14:15.627448,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\DP130155.jpg,steps=400,26281.62,0.4733,0.1377
+2025-09-21T18:14:27.397997,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\DP130155.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11620.92,0.2444,0.0279
+2025-09-21T18:14:54.125645,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,26192.30,0.4634,0.1315
+2025-09-21T18:15:05.959195,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11613.91,0.2443,0.0375
+2025-09-21T18:15:32.806200,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\abstract-style-1.jpg,steps=400,26247.53,0.4205,0.0728
+2025-09-21T18:15:44.691044,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\abstract-style-1.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11757.61,0.2570,0.0285
+2025-09-21T18:16:11.272162,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\starry_night.png,steps=400,25972.09,0.3508,0.0310
+2025-09-21T18:16:22.918634,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\starry_night.png,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11440.74,0.2346,0.0151
+2025-09-21T18:16:49.418117,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\the_scream.jpg,steps=400,25921.39,0.4801,0.1848
+2025-09-21T18:17:01.796369,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\the_scream.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",12156.81,0.2512,0.0441
+2025-09-21T18:17:23.905555,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\DP130155.jpg,steps=400,21573.44,0.4657,0.0834
+2025-09-21T18:17:33.565312,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\DP130155.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",9272.31,0.1961,0.0289
+2025-09-21T18:17:55.928075,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,21818.92,0.5412,0.1342
+2025-09-21T18:18:05.867029,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",9830.51,0.2083,0.0464
+2025-09-21T18:18:28.160869,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\abstract-style-1.jpg,steps=400,21945.98,0.4514,0.0719
+2025-09-21T18:18:37.488156,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\abstract-style-1.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",9205.86,0.2155,0.0361
+2025-09-21T18:19:00.308346,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\starry_night.png,steps=400,22305.44,0.3515,0.0296
+2025-09-21T18:19:09.828671,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\starry_night.png,"alpha=2.5,steps=400,opt=adam,tv=1e-06",9420.54,0.2049,0.0186
+2025-09-21T18:19:32.834507,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\the_scream.jpg,steps=400,22640.08,0.5984,0.1622
+2025-09-21T18:19:42.632871,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\the_scream.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",9672.75,0.2325,0.0463
+2025-09-21T18:20:08.580490,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\DP130155.jpg,steps=400,24721.44,0.5584,0.0595
+2025-09-21T18:20:19.587520,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\DP130155.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",10847.03,0.2943,0.0214
+2025-09-21T18:20:45.101233,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,24811.41,0.5472,0.1043
+2025-09-21T18:20:56.123511,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",10848.14,0.2992,0.0451
+2025-09-21T18:21:21.667867,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\abstract-style-1.jpg,steps=400,24854.64,0.5383,0.0580
+2025-09-21T18:21:32.536084,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\abstract-style-1.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",10718.74,0.3137,0.0329
+2025-09-21T18:21:57.981033,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\starry_night.png,steps=400,24792.48,0.4369,0.0318
+2025-09-21T18:22:09.245037,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\starry_night.png,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11130.03,0.3087,0.0195
+2025-09-21T18:22:35.334760,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\the_scream.jpg,steps=400,25061.52,0.5656,0.1421
+2025-09-21T18:22:46.541771,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\the_scream.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",11018.21,0.3108,0.0444
+2025-09-21T18:23:21.446357,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\DP130155.jpg,steps=400,34266.68,0.5999,0.1971
+2025-09-21T18:23:37.484256,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\DP130155.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",15840.35,0.3539,0.0491
+2025-09-21T18:24:11.526388,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,33408.82,0.5419,0.1008
+2025-09-21T18:24:26.833920,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",15151.47,0.3539,0.0388
+2025-09-21T18:25:01.974302,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\abstract-style-1.jpg,steps=400,34534.26,0.5677,0.0698
+2025-09-21T18:25:17.685794,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\abstract-style-1.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",15488.45,0.3805,0.0315
+2025-09-21T18:25:52.590283,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\starry_night.png,steps=400,34285.98,0.5031,0.0351
+2025-09-21T18:26:08.513635,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\starry_night.png,"alpha=2.5,steps=400,opt=adam,tv=1e-06",15666.19,0.3580,0.0206
+2025-09-21T18:26:42.745418,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\the_scream.jpg,steps=400,33595.47,0.5388,0.1621
+2025-09-21T18:26:58.544512,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\the_scream.jpg,"alpha=2.5,steps=400,opt=adam,tv=1e-06",15566.36,0.3734,0.0478
+2025-09-21T20:59:16.777631,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\DP130155.jpg,steps=400,26724.81,0.4220,0.1108
+2025-09-21T20:59:28.287188,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\DP130155.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11370.68,0.1778,0.0234
+2025-09-21T20:59:54.537528,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,25604.75,0.4804,0.1267
+2025-09-21T21:00:06.078301,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11335.80,0.1840,0.0367
+2025-09-21T21:00:32.400459,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\abstract-style-1.jpg,steps=400,25674.13,0.4016,0.0680
+2025-09-21T21:00:44.124968,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\abstract-style-1.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11514.96,0.1930,0.0325
+2025-09-21T21:01:10.736945,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\starry_night.png,steps=400,25498.45,0.3145,0.0323
+2025-09-21T21:01:22.230750,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\starry_night.png,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11205.04,0.1763,0.0177
+2025-09-21T21:01:48.058790,gatys,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\the_scream.jpg,steps=400,25173.00,0.5346,0.1757
+2025-09-21T21:01:59.453950,adain_opt,cuda,720,test_images/content\IMG_2246.jpg,test_images/style\the_scream.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11195.13,0.1972,0.0466
+2025-09-21T21:02:25.549768,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\DP130155.jpg,steps=400,25333.83,0.4734,0.1378
+2025-09-21T21:02:37.263565,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\DP130155.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11201.64,0.2290,0.0252
+2025-09-21T21:03:03.403719,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,25241.78,0.4633,0.1313
+2025-09-21T21:03:15.242827,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11225.50,0.2284,0.0343
+2025-09-21T21:03:41.222513,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\abstract-style-1.jpg,steps=400,25327.16,0.4206,0.0722
+2025-09-21T21:03:52.589660,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\abstract-style-1.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11238.05,0.2417,0.0276
+2025-09-21T21:04:18.400583,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\starry_night.png,steps=400,25240.62,0.3508,0.0309
+2025-09-21T21:04:29.762043,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\starry_night.png,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11231.72,0.2222,0.0149
+2025-09-21T21:04:55.939953,gatys,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\the_scream.jpg,steps=400,25262.70,0.4802,0.1850
+2025-09-21T21:05:07.305924,adain_opt,cuda,720,test_images/content\IMG_3088.jpg,test_images/style\the_scream.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",11221.90,0.2355,0.0397
+2025-09-21T21:05:29.527861,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\DP130155.jpg,steps=400,21340.76,0.4660,0.0832
+2025-09-21T21:05:38.687065,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\DP130155.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",9064.31,0.1813,0.0260
+2025-09-21T21:06:00.390608,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,21306.75,0.5416,0.1345
+2025-09-21T21:06:09.638123,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",9079.17,0.1958,0.0434
+2025-09-21T21:06:31.295876,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\abstract-style-1.jpg,steps=400,21352.07,0.4512,0.0712
+2025-09-21T21:06:40.451983,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\abstract-style-1.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",9056.10,0.2002,0.0363
+2025-09-21T21:07:02.298411,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\starry_night.png,steps=400,21495.30,0.3517,0.0300
+2025-09-21T21:07:12.070427,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\starry_night.png,"alpha=3,steps=400,opt=adam,tv=10000000000.0",9192.09,0.1902,0.0176
+2025-09-21T21:07:33.742549,gatys,cuda,720,test_images/content\couple.jpeg,test_images/style\the_scream.jpg,steps=400,21345.94,0.5984,0.1619
+2025-09-21T21:07:42.962008,adain_opt,cuda,720,test_images/content\couple.jpeg,test_images/style\the_scream.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",9096.30,0.2201,0.0423
+2025-09-21T21:08:07.926225,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\DP130155.jpg,steps=400,24166.01,0.5584,0.0591
+2025-09-21T21:08:18.723113,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\DP130155.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",10605.67,0.2788,0.0214
+2025-09-21T21:08:44.510401,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,24698.99,0.5469,0.1040
+2025-09-21T21:08:55.478038,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",10771.52,0.2907,0.0456
+2025-09-21T21:09:20.261563,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\abstract-style-1.jpg,steps=400,24083.63,0.5384,0.0585
+2025-09-21T21:09:31.071970,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\abstract-style-1.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",10638.15,0.2971,0.0310
+2025-09-21T21:09:56.086314,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\starry_night.png,steps=400,24027.72,0.4367,0.0317
+2025-09-21T21:10:06.823472,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\starry_night.png,"alpha=3,steps=400,opt=adam,tv=10000000000.0",10625.44,0.2877,0.0169
+2025-09-21T21:10:31.595050,gatys,cuda,720,test_images/content\edited (5).png,test_images/style\the_scream.jpg,steps=400,24053.26,0.5662,0.1420
+2025-09-21T21:10:42.299679,adain_opt,cuda,720,test_images/content\edited (5).png,test_images/style\the_scream.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",10583.03,0.3053,0.0435
+2025-09-21T21:11:16.210245,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\DP130155.jpg,steps=400,33279.13,0.6000,0.1967
+2025-09-21T21:11:32.449187,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\DP130155.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",16058.76,0.3332,0.0441
+2025-09-21T21:12:07.590398,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,steps=400,34386.90,0.5422,0.1010
+2025-09-21T21:12:23.162229,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\Vincent-van-Goghs-Self-Portrait-copy.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",15124.89,0.3387,0.0364
+2025-09-21T21:13:02.391820,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\abstract-style-1.jpg,steps=400,38310.03,0.5678,0.0694
+2025-09-21T21:13:20.823749,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\abstract-style-1.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",18172.51,0.3603,0.0300
+2025-09-21T21:13:55.916912,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\starry_night.png,steps=400,34071.04,0.5031,0.0353
+2025-09-21T21:14:11.591601,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\starry_night.png,"alpha=3,steps=400,opt=adam,tv=10000000000.0",15503.03,0.3390,0.0195
+2025-09-21T21:14:45.598795,gatys,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\the_scream.jpg,steps=400,33385.29,0.5385,0.1619
+2025-09-21T21:15:01.179352,adain_opt,cuda,720,test_images/content\kentish_houses.jpg,test_images/style\the_scream.jpg,"alpha=3,steps=400,opt=adam,tv=10000000000.0",15398.00,0.3604,0.0469

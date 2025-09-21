@@ -1,0 +1,98 @@
+/* ---- theme.css ---------------------------------------------------------- */
+/* Minimalist design tokens: clean colors, subtle spacing, modern typography */
+
+:root {
+  /* Minimalist Colors */
+  --bg: #fafafa;
+  --panel: #ffffff;
+  --panel-2: #f7f8fa;
+  --text: #1a1a1a;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --accent: #000000;
+  --accent-secondary: #374151;
+  --border: #e5e7eb;
+  --border-light: #f3f4f6;
+  --focus: #3b82f6;
+  --danger: #ef4444;
+  --success: #10b981;
+
+  /* Elevation (minimal shadows) */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Radii (minimal, consistent) */
+  --r-xs: 3px;
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 12px;
+
+  /* Spacing (8px grid system) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-12: 48px;
+
+  /* Typography (Inter-inspired) */
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif;
+  --font-mono: "SF Mono", Monaco, "Cascadia Code", "Consolas", monospace;
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-base: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --lh-tight: 1.25;
+  --lh-normal: 1.5;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a0a;
+    --panel: #111111;
+    --panel-2: #1a1a1a;
+    --text: #ffffff;
+    --text-secondary: #a1a1aa;
+    --text-muted: #71717a;
+    --accent: #ffffff;
+    --accent-secondary: #d4d4d8;
+    --border: #262626;
+    --border-light: #1a1a1a;
+    --focus: #60a5fa;
+    --danger: #f87171;
+    --success: #34d399;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+
+body.app {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--fs-base);
+  line-height: var(--lh-normal);
+  font-weight: var(--fw-normal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography utilities */
+.text-xs { font-size: var(--fs-xs); }
+.text-sm { font-size: var(--fs-sm); }
+.text-lg { font-size: var(--fs-lg); }
+.text-xl { font-size: var(--fs-xl); }
+.text-2xl { font-size: var(--fs-2xl); }
+.font-medium { font-weight: var(--fw-medium); }
+.font-semibold { font-weight: var(--fw-semibold); }
+.text-secondary { color: var(--text-secondary); }
+.text-muted { color: var(--text-muted); }
