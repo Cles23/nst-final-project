@@ -1,5 +1,4 @@
 /* ---- layout.css --------------------------------------------------------- */
-/* Minimalist layout: clean grid, subtle borders, generous whitespace       */
 
 /* Header */
 .app-header {
@@ -256,30 +255,3 @@
     gap: var(--s-2);
   }
 }
-
-/* Remove or comment out the floating toggle button styles */
-
-/* .floating-toggle {
-  position: absolute;
-  top: var(--s-4);
-  right: var(--s-4);
-  z-index: 10;
-  padding: var(--s-2) var(--s-3);
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  border: none;
-  border-radius: var(--r-sm);
-  color: var(--text);
-  font-size: var(--fs-xs);
-  font-weight: var(--fw-medium);
-  box-shadow: var(--shadow-md);
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.floating-toggle:hover {
-  background: var(--accent);
-  color: var(--panel);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-lg);
-} */
