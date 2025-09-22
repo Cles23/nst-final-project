@@ -39,7 +39,6 @@ Open your browser: http://127.0.0.1:5000
 
 ## Usage tips
 - Use smaller images first (like 512px) - it's faster
-- First run takes more time (downloads model weights)
 - If you have NVIDIA GPU, it will be much faster
 - Clear cache if app uses too much memory
 
